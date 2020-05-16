@@ -11,6 +11,7 @@ export class ServersComponent implements OnInit {
   serverName = '';
   severCreated = false;
   serverStatus = false;
+  servers = [];
 
   constructor() {
   }
@@ -21,6 +22,7 @@ export class ServersComponent implements OnInit {
   onCreateServer(){
     this.severCreated = true;
     this.serverStatus = true;
+    this.servers.push(this.serverName);
   }
 
   getColor(){

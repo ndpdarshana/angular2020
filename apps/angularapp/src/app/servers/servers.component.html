@@ -7,4 +7,4 @@
   <p>No server was created</p>
 </ng-template>
 <p [ngStyle]="getColor()">color test</p>
-<angularapp-server></angularapp-server>
+<angularapp-server *ngFor="let s of servers"></angularapp-server>
