@@ -4,12 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
     LoginComponent, 
-    ServerComponent
+    ServerComponent, ServersComponent
   ],
   imports: [
     BrowserModule, 
